@@ -9,6 +9,9 @@ body {
   width: 100%;
   overflow: hidden; }
 
+*, *::before, *::after {
+  box-sizing: inherit; }
+
 .lightbulb-circle {
   width: 100px;
   height: 100px;
