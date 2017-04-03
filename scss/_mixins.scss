@@ -1,0 +1,13 @@
+$night: 000;
+$gold: rgb(247,242,242);
+$dark-brown: rgb(32,16,5);
+
+
+// mixins
+
+@mixin vertical-centering {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
